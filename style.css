@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  box-shadow: 0 3px 3px 5px rgb(128, 128, 128, 0.5);
+}
+
+#main-heading {
+  background-color: white;
+  font-size: 5vw;
+  width: 90%;
+  text-align: center;
+}
+
+#images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#images img {
+  max-width: 100%;
+}
+#img1 {
+  height: 3rem;
+}
+#img2 {
+  height: 3.3rem;
+}
+
+.heading1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  gap: 1rem;
+}
+#result {
+  color: green;
+}
+.container {
+  width: 50%;
+  height: 500px;
+
+  border-radius: 0.5rem;
+}
+.containers-area {
+  display: flex;
+  justify-content: center;
+}
+.heading2 {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+input {
+  width: 95%;
+  height: 35px;
+  font-size: 20px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  border: 1px solid grey;
+}
+select {
+  width: 96%;
+  height: 30px;
+  font-size: 18px;
+  color: rgb(0, 0, 0, 0.7);
+  border-radius: 0.5rem;
+  border: 1px solid grey;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.3rem;
+}
+button {
+  background-color: #007bff;
+  color: white;
+  border-radius: 0.5rem;
+  font-size: 15px;
+  height: 30px;
+  width: 10rem;
+  border: 1px solid transparent;
+}
+.output {
+  width: 100%;
+  border-radius: 0.3rem;
+}
+.output-value {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid grey;
+  border-radius: 0.3rem;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finance Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="heading">
+      <p id="main-heading">Finance Tracker</p>
+      <p id="images">
+        <a href="https://github.com/IshanTheDeveloper" target="_blank">
+          <img src="github.png" alt="" id="img1" />
+        </a>
+        <a href="www.linkedin.com/in/ishan-jaiswal-6146202b6" target="_blank">
+          <img src="linkedln.png" alt="" id="img2" />
+        </a>
+      </p>
+    </div>
+    <div class="heading1">
+      <h1>Your Balance :</h1>
+      <h1 id="result">0</h1>
+    </div>
+    <div class="containers-area">
+      <div class="container">
+        <p class="heading2">Add Transaction</p>
+        <p class="heading3">Description:</p>
+        <input
+          type="text"
+          placeholder="Enter description"
+          id="description-area"
+        />
+        <p class="heading3">Amount:</p>
+        <input type="text" placeholder="Enter amount" id="amount" />
+        <select name="" id="selection-area">
+          <option value="Income">Income</option>
+          <option value="Expenses">Expenses</option>
+        </select>
+        <button id="button">Add Transaction</button>
+        <p class="heading2">Transaction</p>
+
+        <div class="output"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
